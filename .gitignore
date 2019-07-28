@@ -59,3 +59,4 @@ buck-out/
 /ios/Pods/
 
 temp
+android/app/google-services.json
