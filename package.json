@@ -5,14 +5,24 @@
   "scripts": {
     "start": "react-native start",
     "test": "jest",
-		"lint": "eslint .",
-		"android": "react-native run-android",
-		"shake": "adb shell input keyevent 82",
-		"reload": "adb shell input text \"RR\""
+    "lint": "eslint .",
+    "android": "react-native run-android",
+    "shake": "adb shell input keyevent 82",
+    "reload": "adb shell input text \"RR\""
   },
   "dependencies": {
+    "native-base": "^2.13.4",
     "react": "16.8.6",
-    "react-native": "0.60.4"
+    "react-native": "0.60.4",
+    "react-native-exception-handler": "^2.10.8",
+    "react-native-firebase": "^5.5.5",
+    "react-native-navigation": "^2.26.2",
+    "react-native-splash-screen": "^3.2.0",
+    "react-native-vector-icons": "^6.6.0",
+    "react-redux": "^7.1.0",
+    "redux": "^4.0.4",
+    "redux-persist": "^5.10.0",
+    "redux-thunk": "^2.3.0"
   },
   "devDependencies": {
     "@babel/core": "^7.5.5",
