@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "REPLACE THIS FILE WITH YOUR KEY",
+    "firebase_url": "REPLACE THIS FILE WITH YOUR KEY",
+    "project_id": "rnask-boilerplate",
+    "storage_bucket": "rnask-boilerplate.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "REPLACE THIS FILE WITH YOUR KEY",
+        "android_client_info": {
+          "package_name": "com.rnask"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "REPLACE THIS FILE WITH YOUR KEY",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "REPLACE THIS FILE WITH YOUR KEY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "REPLACE THIS FILE WITH YOUR KEY",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
