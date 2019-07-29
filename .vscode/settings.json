@@ -13,5 +13,12 @@
 		"@components": "${workspaceRoot}/src/components",
 		"@constants": "${workspaceRoot}/src/constants"
 	},
-	"typescript.quickSuggestionsForPaths": false
+	"typescript.quickSuggestionsForPaths": false,
+	"java.configuration.updateBuildConfiguration": "interactive",
+	// "files.exclude": {
+	// 	"**/.classpath": true,
+	// 	"**/.project": true,
+	// 	"**/.settings": true,
+	// 	"**/.factorypath": true
+	// }
 }

@@ -6,7 +6,7 @@
  * @flow
  */
 
-import React, {Fragment} from 'react';
+import React, {Fragment, useEffect} from 'react';
 import {
   SafeAreaView,
   StyleSheet,
@@ -24,10 +24,18 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 
+import SplashScreen from 'react-native-splash-screen';
+
+
 const App = () => {
+	useEffect(() => {
+    SplashScreen.hide();
+  }, []);
   return (
     <Fragment>
-      <StatusBar barStyle="dark-content" />
+			<StatusBar 
+			backgroundColor="#4F6D7A"
+			barStyle="dark-content" />
       <SafeAreaView>
         <ScrollView
           contentInsetAdjustmentBehavior="automatic"
